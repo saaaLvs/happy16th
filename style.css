@@ -7,7 +7,7 @@ body {
   font-family: "Kalam", cursive;
 }
 
-h1, p {
+h1, p, h3{
   color: #4d2600;
   text-align: center;
   margin: 0 1rem;
@@ -30,6 +30,9 @@ p {
   display: none; /* Initially hide all paragraphs */
   opacity: 0; /* Set initial opacity to 0 for fading effect */
   transition: opacity 0.5s ease-in-out; /* Smooth transition for fade */
+}
+
+h3 {
 }
 
 hr {
